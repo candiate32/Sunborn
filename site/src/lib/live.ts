@@ -9,7 +9,7 @@ export interface LiveSettings {
 export const DEFAULT_LIVE: LiveSettings = {
   baseUrl: "http://localhost:8080",
   apiKey: "",
-  model: "gemini-2.5-flash",
+  model: "gemini-3.8-flash",
 };
 
 function cleanBase(url: string) {
